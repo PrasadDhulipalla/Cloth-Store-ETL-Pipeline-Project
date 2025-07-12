@@ -1,0 +1,101 @@
+SessionID,CustomerID,PageViewed,Duration,Date,Device,Referrer
+541901e9,d895e494,Home,11,2024-12-15,Mobile,Facebook
+1efd4096,496dac99,Login,233,2024-12-05,Tablet,Google
+f2a89a61,aa3a0c21,Login,106,2024-12-06,Tablet,Facebook
+08557851,ff4a44d8,Sign Up,181,2024-12-10,Tablet,Direct
+8c5f2e64,4dd179d5,Products,192,2024-12-13,Mobile,Email
+01490e24,75af9682,Cart,113,2024-12-07,Tablet,Google
+4814532c,0a914ce9,Products,76,2024-12-17,Mobile,Instagram
+96ece6ac,a18dd2a8,Login,199,2024-12-17,Mobile,Instagram
+959dadd1,938d071a,Sign Up,277,2024-12-10,Tablet,Facebook
+361f2824,04c9c778,Home,251,2024-12-04,Desktop,Email
+3dcae9c8,7388f372,Sign Up,36,2024-12-18,Desktop,Email
+c104a7c1,e66bb1e0,Sign Up,170,2024-12-11,Tablet,Direct
+366ec3d6,465e1d65,Products,129,2024-12-10,Tablet,Direct
+1b64e620,00deea70,Products,109,2024-12-03,Mobile,Facebook
+3a47345c,1651ee33,Login,149,2024-12-01,Mobile,Google
+39fca0b5,04c9c778,Sign Up,229,2024-12-13,Mobile,Email
+4f8d9c54,ff4a44d8,Products,275,2024-12-12,Desktop,Instagram
+fac1cecd,2dc037ef,Products,15,2024-12-12,Tablet,Google
+7805af6d,747e5483,Products,45,2024-12-07,Tablet,Google
+f1472c3e,e4dc2985,Products,75,2024-12-07,Desktop,Google
+642759d3,7388f372,Products,37,2024-12-17,Desktop,Instagram
+36f0fab0,dacd234f,Products,50,2024-12-01,Tablet,Email
+6eecd590,2b74ef4b,Products,157,2024-12-07,Desktop,Google
+cd2b070e,84f8f0bd,Sign Up,130,2024-12-12,Desktop,Google
+747c5a6a,5d7d62e8,Sign Up,96,2024-12-12,Mobile,Google
+c2291c7c,496dac99,Sign Up,155,2024-12-12,Tablet,Instagram
+82888b87,ff4a44d8,Login,235,2024-12-02,Mobile,Email
+21fb1207,1af94202,Cart,110,2024-12-08,Desktop,Direct
+e9d89d9f,083e0376,Cart,270,2024-12-17,Tablet,Instagram
+c72cd78d,765184c5,Products,139,2024-12-12,Mobile,Email
+8afa6956,323ad764,Sign Up,130,2024-12-12,Desktop,Email
+5c3dfa07,60f4a66c,Checkout,134,2024-12-02,Mobile,Email
+be517b50,e4bbc78c,Login,73,2024-12-16,Mobile,Email
+a579fd73,40cc4dbd,Cart,246,2024-12-16,Tablet,Direct
+bb770476,04c9c778,Login,95,2024-12-05,Mobile,Instagram
+183b4a5b,3e893186,Home,184,2024-12-18,Mobile,Instagram
+ebc1ab1c,5e2df7a0,Products,257,2024-12-16,Mobile,Email
+d6cf982e,5bc11b43,Sign Up,147,2024-12-09,Tablet,Email
+b2ef4d56,8e798038,Cart,167,2024-12-03,Desktop,Facebook
+db082a16,e4018919,Sign Up,268,2024-12-10,Mobile,Direct
+f7dee199,9ab485e7,Cart,237,2024-12-08,Mobile,Email
+201f4310,1c2a5802,Sign Up,127,2024-12-15,Mobile,Instagram
+29e4e533,09d62a2b,Cart,130,2024-12-06,Desktop,Facebook
+f4ea8aae,a2992c62,Home,295,2024-12-15,Desktop,Instagram
+743f0813,530bdb47,Checkout,176,2024-12-03,Desktop,Direct
+b672fb62,91971e6c,Sign Up,109,2024-12-11,Tablet,Google
+c8b53fc6,6d8e2139,Checkout,172,2024-12-15,Desktop,Instagram
+3814ba3f,e4bbc78c,Products,239,2024-12-13,Tablet,Email
+bb833683,d5d783c3,Login,281,2024-12-10,Desktop,Direct
+b191593a,8e798038,Cart,89,2024-12-04,Desktop,Google
+3573345a,e4bbc78c,Products,127,2024-12-10,Mobile,Direct
+0c7df144,b5df57f3,Cart,50,2024-12-09,Tablet,Email
+e05f66de,1651ee33,Login,169,2024-12-04,Tablet,Facebook
+49e1d336,dacd234f,Sign Up,161,2024-12-12,Mobile,Email
+76b5c607,7be0ad5a,Checkout,277,2024-12-08,Desktop,Direct
+c34f4be4,a5ae6077,Login,131,2024-12-14,Mobile,Google
+4bc7cfa9,c0fe2484,Login,65,2024-12-15,Desktop,Facebook
+09102e9b,99860d90,Login,281,2024-12-15,Tablet,Instagram
+a303aa81,aa3a0c21,Checkout,140,2024-12-06,Desktop,Instagram
+5b1cbb8b,fcbe4d77,Home,90,2024-12-08,Mobile,Facebook
+95c601c6,ceb31ab7,Home,78,2024-12-07,Mobile,Instagram
+9ba8672c,496dac99,Products,145,2024-12-11,Mobile,Google
+9e371b94,765184c5,Sign Up,136,2024-12-17,Mobile,Google
+1a6db15f,aa3a0c21,Sign Up,112,2024-12-12,Desktop,Email
+e6e87997,184edd76,Home,231,2024-12-09,Desktop,Email
+413de533,50baac6d,Login,74,2024-12-19,Mobile,Direct
+c86635a0,ad2366be,Sign Up,281,2024-12-18,Tablet,Google
+331c5c47,3ca0b145,Home,223,2024-12-12,Tablet,Email
+d2486d15,06984f77,Home,13,2024-12-04,Tablet,Instagram
+e3b838f5,f69539db,Login,133,2024-12-17,Desktop,Instagram
+5f5f9665,2b74ef4b,Home,211,2024-12-17,Mobile,Instagram
+e600b84a,a626b230,Checkout,195,2024-12-18,Desktop,Facebook
+d7f5b042,b033dc65,Products,22,2024-12-08,Desktop,Direct
+572ba7e0,14c2b3cd,Checkout,69,2024-12-18,Tablet,Email
+a30d4dcb,765184c5,Sign Up,29,2024-12-08,Desktop,Direct
+bb81bd6e,32dd8327,Cart,92,2024-12-07,Tablet,Instagram
+d9eceb38,6d8e2139,Products,279,2024-12-12,Mobile,Direct
+4eae29f7,d54e9bae,Checkout,265,2024-12-05,Desktop,Google
+832de028,a626b230,Sign Up,258,2024-12-11,Tablet,Instagram
+0bf865fd,60f4a66c,Checkout,224,2024-12-01,Mobile,Direct
+06e9bc6a,e67ed83b,Sign Up,240,2024-12-15,Mobile,Email
+cc51438c,91971e6c,Sign Up,85,2024-12-02,Desktop,Instagram
+3f27b54b,1d5d0e60,Home,70,2024-12-06,Desktop,Instagram
+3d85b72c,a2992c62,Cart,176,2024-12-03,Tablet,Instagram
+aadc5b43,99860d90,Login,85,2024-12-07,Mobile,Google
+147831bf,00deea70,Products,230,2024-12-12,Mobile,Direct
+e83ebde6,6f4e099b,Sign Up,11,2024-12-02,Desktop,Email
+0a0e5a36,465e1d65,Home,7,2024-12-13,Tablet,Direct
+a41a2989,a626b230,Home,178,2024-12-05,Tablet,Direct
+9f9751fb,0ed95e84,Login,238,2024-12-18,Tablet,Google
+1542c717,aad7ef7c,Login,138,2024-12-01,Tablet,Direct
+ad3ce1bf,9641b3e7,Login,263,2024-12-02,Tablet,Google
+cc98ce33,92fbb1b9,Checkout,213,2024-12-11,Mobile,Facebook
+9254a269,ffeb5d58,Sign Up,204,2024-12-12,Desktop,Direct
+73be1fa0,4d82060d,Login,171,2024-12-08,Desktop,Instagram
+906c325c,abc1efe5,Home,188,2024-12-06,Desktop,Google
+9b52d60b,aad7ef7c,Sign Up,238,2024-12-12,Mobile,Email
+92161bd9,910472cc,Sign Up,284,2024-12-11,Mobile,Email
+409363f1,b49a5a19,Cart,67,2024-12-16,Mobile,Direct
+e34a4a28,f288f5f6,Cart,125,2024-12-17,Tablet,Instagram

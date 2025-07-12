@@ -1,0 +1,101 @@
+ProductID,ProductName,Category,Brand,Price,DiscountedPrice,Gender,Size,Color,StockQuantity,WarehouseLocation,DateAdded
+faab5282,thank,Men,Watson-Bauer,102.61,170.67,Unisex,M,Yellow,390,Port Thomas,25-10-2024
+aec629d3,year,Men,Stewart Group,71.27,53.77,Female,S,LightSalmon,81,Vincentland,19-04-2024
+5a36679b,move,Women,Bennett-Jones,176.39,138.11,Male,XL,BlueViolet,303,Amandachester,15-01-2024
+8e0c7993,room,Women,Hernandez-Wood,33.73,25.34,Female,XL,Salmon,195,Port Sara,19-08-2024
+6f319bc8,test,Men,Ortiz-Peterson,29.36,104.53,Unisex,XL,Indigo,382,Michaelfurt,01-05-2024
+2bf6dfe5,situation,Accessories,Solis-Wallace,148.77,81.45,Female,S,PaleVioletRed,213,Sheltonbury,19-06-2024
+0c3f4969,others,Women,Chandler-Bailey,127.56,153.09,Female,XL,Chocolate,292,West Deborahton,01-08-2024
+af15c1f4,production,Women,"Wheeler, Hughes and Morrison",113.27,162.78,Female,L,DarkRed,497,North Adamshire,01-03-2024
+9872db20,resource,Accessories,Griffin Ltd,73.24,104.64,Male,XL,DarkGreen,285,Jackland,16-08-2024
+980e3ca4,oil,Men,Taylor-Anderson,57.77,81.15,Female,S,Moccasin,6,Jonesbury,10-12-2024
+4b41b511,subject,Women,"Reed, Ellis and Lambert",48.74,25.53,Unisex,XL,DarkGreen,228,North Shannon,21-05-2024
+e8f527c2,political,Accessories,Reynolds-Berry,72.02,26.75,Male,XL,DarkMagenta,137,Richardborough,09-08-2024
+effd54d2,push,Accessories,Myers PLC,161.72,52.58,Female,XL,GhostWhite,220,Younghaven,27-06-2024
+9d025626,level,Men,"Murphy, Hernandez and White",112.4,6.45,Male,S,Lime,438,Hallborough,10-06-2024
+3fe50203,lot,Men,Mckinney-Mcdonald,118.04,104.58,Unisex,L,MediumPurple,33,Lake Anna,23-05-2024
+16d5ef18,while,Men,Delacruz and Sons,110.39,133.95,Female,S,MediumTurquoise,174,Brandonshire,07-12-2024
+55c10093,professional,Accessories,"Schneider, Jackson and Liu",189.84,82.7,Female,M,MidnightBlue,96,Lake Joseph,15-11-2024
+1de87b40,oil,Men,"Hawkins, Oneal and Kim",27.53,168.37,Female,L,LightSeaGreen,121,Curtisfort,30-01-2024
+b60b5f78,material,Men,Woodard and Sons,34.08,28.84,Female,S,BurlyWood,495,Hunterland,25-11-2024
+04233cdd,and,Accessories,Benton Ltd,46.24,158.59,Male,XL,DarkOliveGreen,145,Wayneport,10-01-2024
+9029d4b8,why,Men,Patel-Francis,36.21,99.08,Unisex,L,Fuchsia,486,North Destiny,15-09-2024
+a28948b5,financial,Women,Delgado-Morrison,75.71,28.28,Unisex,XL,Orchid,251,Shawborough,23-10-2024
+668dcc07,force,Men,"Hines, Lowe and Johnson",124.34,132.57,Male,S,Orange,29,South Edwardfurt,22-01-2024
+a043bdd0,gun,Men,Medina-Hill,100.11,62.34,Male,S,DodgerBlue,412,Patrickfort,18-05-2024
+a1b59a2c,occur,Women,"Owens, Bailey and Hart",197.91,7.83,Unisex,L,DarkRed,33,South Davidton,22-05-2024
+835113d7,evidence,Accessories,Moore-Smith,111.87,134.1,Female,XL,DarkOrchid,86,Linborough,04-02-2024
+8093d9d4,professor,Accessories,Haynes-Garrett,131.01,130.25,Female,L,Lavender,269,West Michael,16-11-2024
+be127f5b,rather,Men,Jones-Smith,114.81,153.05,Unisex,L,IndianRed,426,West Chad,31-07-2024
+c1079c76,want,Women,Ward Inc,185.29,77.79,Unisex,S,MediumSlateBlue,382,Jonesfurt,17-06-2024
+9ef83919,recently,Accessories,"Ramos, Adams and Collins",87.62,71.43,Female,M,LavenderBlush,33,New Brookehaven,01-10-2024
+d31085a8,occur,Men,Armstrong Inc,174.61,126.82,Male,L,SlateBlue,42,New Brittany,23-10-2024
+89d6ed91,start,Accessories,"Williams, Holden and Wood",61.84,145.01,Female,L,MediumVioletRed,117,Toddton,06-07-2024
+9ca7e397,only,Men,Jordan PLC,75.45,11.12,Male,M,MediumSeaGreen,385,Lake Austinton,13-07-2024
+7beff65e,could,Men,Russo-Medina,128.26,133.86,Male,XL,FireBrick,213,Andersontown,05-03-2024
+618c8436,able,Men,Kelley Inc,126.8,107.86,Unisex,M,HoneyDew,420,Charlottemouth,20-08-2024
+e35b9d18,north,Men,Castaneda Inc,124.91,55.63,Unisex,L,LightSkyBlue,109,Amandabury,17-06-2024
+b2ebaa4e,plan,Men,Evans-Li,113.11,71.19,Unisex,XL,Lavender,390,North Debra,24-03-2024
+45291391,shoulder,Accessories,Reeves Ltd,42.48,31.01,Male,M,Tan,448,East Patrickland,04-03-2024
+c2a2e707,treat,Accessories,"Baker, Mack and Cooper",139.42,18.65,Unisex,M,DarkSlateBlue,128,Sharonton,09-05-2024
+1ddc8e82,kind,Women,"Kelly, Ramirez and Roach",164.69,169.59,Female,L,PaleTurquoise,250,North Jackport,11-01-2024
+aec402cd,weight,Men,Moss Ltd,182.81,118.11,Female,M,DarkGreen,155,Jenniferborough,04-10-2024
+e2e60783,probably,Men,Bauer and Sons,122.74,56.65,Unisex,L,DimGray,442,South Lori,12-02-2024
+e94cdf67,sing,Women,Tran and Sons,45.34,59.75,Unisex,M,BlueViolet,12,Longport,13-10-2024
+50a3506f,win,Men,"Snyder, Ryan and Henry",133.09,137.14,Unisex,S,Aqua,382,East Williefurt,26-11-2024
+27d671f7,treat,Women,Perry-Murphy,102,74.33,Female,L,Crimson,138,Rileyshire,21-05-2024
+d89f2989,five,Women,"Garcia, Alvarez and Weaver",37.8,16.6,Female,XL,Plum,224,West Valerie,07-07-2024
+c07d25f1,star,Men,"Harris, Wilson and Clark",131.61,83.47,Female,L,OldLace,100,Anthonybury,24-04-2024
+07a7ea7e,talk,Accessories,Ramos-Jones,26.02,47.33,Female,S,PeachPuff,189,Veronicaport,20-02-2024
+7c417ed9,tree,Men,Guerrero-Wilkins,60.62,100.38,Male,XL,Plum,296,North Jonville,25-04-2024
+36565a40,describe,Men,Lewis-Tucker,136.54,170.72,Male,L,Chartreuse,463,Royfurt,29-03-2024
+e918eaab,show,Men,"Smith, Booker and Blair",121.08,134.22,Unisex,M,PaleGoldenRod,417,North Stephen,28-06-2024
+9ae7b6b8,development,Accessories,Rivera-Reid,57.13,56.41,Female,L,SeaGreen,107,West Saratown,21-04-2024
+59669b82,among,Accessories,Flores LLC,103.58,168.53,Female,S,Red,137,Ortizhaven,11-06-2024
+9a9937d2,full,Women,Ibarra-Riddle,77.88,150.65,Male,XL,LawnGreen,365,Cherrychester,30-09-2024
+56ea8a97,director,Men,"Lin, Clark and Olsen",186.77,45.46,Unisex,M,PaleTurquoise,219,Adrianfurt,02-07-2024
+c0b7751c,grow,Accessories,Potter Inc,131.66,60.71,Male,XL,DarkRed,407,West Kimberly,08-02-2024
+67ccec8b,relationship,Men,"Hall, Stewart and Allen",140.8,164.47,Female,S,Moccasin,368,Rubiobury,18-09-2024
+fde1426c,entire,Men,Burns-Vincent,188.68,54.11,Female,XL,MediumAquaMarine,15,Lake Steven,06-05-2024
+4118ff55,whom,Women,Ashley Inc,125.28,53.68,Male,M,MediumOrchid,399,Rushview,05-07-2024
+4b3bde65,against,Women,"Potter, Garrison and Case",94.35,114.73,Female,M,Purple,61,Stephaniebury,06-01-2024
+3564cb22,example,Accessories,Carter-Garcia,90.55,125.55,Unisex,S,Violet,165,West Kristen,06-11-2024
+bc4ce7e0,state,Men,Watson and Sons,192.54,126.95,Female,XL,PapayaWhip,211,New Michaelville,10-09-2024
+7946f6b2,tell,Men,Young-Williams,40,95.29,Male,XL,SlateGray,237,South Austin,30-10-2024
+6f55a31a,again,Men,"Rodriguez, Lewis and Christian",77.63,36.74,Male,XL,Indigo,59,Port Kayla,17-08-2024
+7f778f9b,after,Women,Jones-Perry,26.54,161.02,Female,S,AntiqueWhite,225,Aliberg,28-04-2024
+c35c9c86,nor,Accessories,"Becker, Kim and Hart",173.72,117.59,Unisex,S,CornflowerBlue,157,Gonzalesland,02-03-2024
+f5898c4c,professor,Accessories,"Houston, Simmons and Martin",142.81,68.55,Male,L,Navy,61,South Aaronmouth,29-06-2024
+f03bee11,range,Women,Thompson and Sons,43.36,107.59,Unisex,XL,Blue,399,West Jon,31-10-2024
+48ccc151,try,Accessories,Riley Ltd,119.67,143.75,Unisex,S,PeachPuff,195,Lake Ericchester,11-03-2024
+05c31f0a,test,Men,Chandler Group,73.49,41.77,Unisex,XL,PaleTurquoise,486,North Monicaberg,19-07-2024
+b3e8b0cc,his,Women,Schultz-Campos,33.96,80.65,Unisex,XL,Navy,288,Richardmouth,17-07-2024
+e160112f,stop,Men,Wall-Gutierrez,86.34,33.71,Female,L,MediumSeaGreen,120,Ryanfurt,21-04-2024
+5677ef07,tree,Accessories,"Hall, Hopkins and Kennedy",50.21,112.59,Male,L,Plum,158,Josephland,10-11-2024
+47c5e293,campaign,Women,Peters LLC,20.47,151.75,Female,M,Cornsilk,195,Lake Sarah,27-03-2024
+7515183a,yet,Women,"Willis, Anderson and Vega",22.48,109.37,Male,L,CadetBlue,314,Justinbury,06-10-2024
+d40cd2eb,at,Women,"Hogan, Reed and Harvey",108.88,84.47,Unisex,L,Teal,346,Lake Michelleland,11-08-2024
+1d8b401b,enter,Accessories,Ball-Rogers,39.68,109.39,Unisex,M,Gainsboro,83,Kathryntown,31-05-2024
+a4e83668,some,Women,"Sharp, Stafford and York",114.84,11.01,Male,L,Pink,138,Burnsfurt,15-03-2024
+bbfa77e8,evidence,Accessories,"Stevens, Robinson and Joseph",183.35,79.55,Unisex,S,MidnightBlue,305,North Natashaside,17-08-2024
+93e458e9,just,Men,Leonard and Sons,137.98,19.81,Unisex,L,FireBrick,54,East Christopherchester,25-05-2024
+c0561716,safe,Accessories,Luna-Hubbard,95.27,114.59,Female,XL,BlueViolet,162,Lake Jessica,22-09-2024
+6ff46988,art,Accessories,Ortega-Andrews,13.33,88.97,Unisex,S,OliveDrab,149,Port Donald,21-10-2024
+17c36bc8,however,Accessories,Smith Inc,24.7,15.56,Female,M,SteelBlue,172,Williamsborough,19-06-2024
+ef3988d6,magazine,Men,Marsh Inc,167.08,61.66,Male,S,LemonChiffon,128,Paynehaven,13-07-2024
+216cb1ea,method,Men,"Noble, Padilla and Robbins",80.92,50.24,Female,L,PapayaWhip,21,Ericstad,12-02-2024
+8e8bcdfc,age,Accessories,"Barton, Bell and Gilbert",158.82,9.23,Female,L,Salmon,10,South Amy,22-06-2024
+ffd16b4c,movement,Women,"Ball, Macdonald and Guerrero",152.87,115.6,Male,M,RoyalBlue,65,Tracieland,27-01-2024
+8bab8c4b,six,Accessories,"Johnson, Esparza and Lopez",109.55,146.99,Unisex,S,FloralWhite,205,Greenchester,07-03-2024
+2fa26f20,smile,Men,Clarke-Nguyen,77.26,90.01,Unisex,XL,DarkRed,308,Nicoleton,18-04-2024
+1e891482,specific,Men,Mendoza Ltd,85.56,60.28,Male,S,Sienna,58,West Donna,18-06-2024
+4ab810a8,trial,Accessories,Vega-Santiago,58.47,179.92,Male,XL,DarkViolet,452,Moniqueville,20-11-2024
+2d636ae9,marriage,Men,Hernandez PLC,61.08,140.57,Female,XL,DarkSlateGray,258,Shawnbury,12-05-2024
+5404b1bf,staff,Accessories,Garcia and Sons,113.78,114.25,Male,M,MediumAquaMarine,289,North Timothyshire,18-08-2024
+0262f906,become,Accessories,Clark-Peters,37.06,136.65,Unisex,XL,Purple,96,West Bradley,04-02-2024
+033597ed,near,Men,Holloway LLC,165.62,127.44,Male,L,MediumTurquoise,2,New Melissaport,16-06-2024
+9a481dcc,final,Men,Smith and Sons,106.35,148.64,Female,XL,Olive,382,North Jim,24-05-2024
+6415d197,good,Men,Harris-Sherman,44.13,90.81,Unisex,XL,PaleGreen,303,Jasonshire,19-11-2024
+fe900c82,north,Accessories,"Alexander, Harris and Anderson",195.98,114.41,Female,S,CadetBlue,65,East Walter,09-06-2024
+e2b29ba4,compare,Accessories,Williams Group,73.08,95.3,Female,L,Cornsilk,275,Lake Davidmouth,18-04-2024
+cebff7a8,government,Accessories,"Hurley, French and Harrell",63.85,172.75,Unisex,L,DarkCyan,194,Rodriguezstad,02-06-2024
