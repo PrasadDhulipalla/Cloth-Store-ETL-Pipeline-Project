@@ -1,0 +1,163 @@
+#storing cleaned datainto data warehouse
+
+
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col, lit
+import psycopg2
+import traceback
+
+# Initialize SparkSession
+spark = SparkSession.builder \
+    .appName("S3ToRedshift") \
+    .config("spark.jars", "/dbfs/FileStore/jars/redshift_jdbc42_2_1_0_30.jar") \
+    .getOrCreate()
+
+# Redshift Configurations
+redshift_jdbc_url = "jdbc:redshift://databricks1.535002865035.eu-west-2.redshift-serverless.amazonaws.com:5439/dev"
+redshift_user = "prasad"
+redshift_password = "Welcomedp*123456"
+redshift_properties = {
+    "user": redshift_user,
+    "password": redshift_password,
+    "driver": "com.amazon.redshift.jdbc42.Driver",
+}
+
+# Function to create table in Redshift
+def create_table_in_redshift(schema, table_name, jdbc_url, user, password):
+    try:
+        conn = psycopg2.connect(
+            dbname="dev",
+            user=user,
+            password=password,
+            host="databricks1.535002865035.eu-west-2.redshift-serverless.amazonaws.com",
+            port=5439
+        )
+        cursor = conn.cursor()
+        cursor.execute(schema)
+        conn.commit()
+        print(f"Table '{table_name}' created successfully in Redshift.")
+    except Exception as e:
+        print(f"ERROR: Failed to create table '{table_name}' in Redshift.")
+        print(f"Exception: {str(e)}")
+        traceback.print_exc()
+    finally:
+        if 'cursor' in locals():
+            cursor.close()
+        if 'conn' in locals():
+            conn.close()
+
+# SQL Queries for Upsert and Cleanup
+def perform_upsert_and_cleanup(stage_table, target_table, jdbc_url, user, password):
+    try:
+        conn = psycopg2.connect(
+            dbname="dev",
+            user=user,
+            password=password,
+            host="databricks1.535002865035.eu-west-2.redshift-serverless.amazonaws.com",
+            port=5439
+        )
+        cursor = conn.cursor()
+
+        # Upsert Logic: Update Existing Records
+        update_query = f"""
+        UPDATE {target_table} AS target
+        SET
+            Name = stage.Name,
+            Email = stage.Email,
+            Phone = stage.Phone,
+            Gender = stage.Gender,
+            DateOfBirth = stage.DateOfBirth,
+            LoyaltyPoints = stage.LoyaltyPoints,
+            FavoriteStore = stage.FavoriteStore,
+            FavoriteCategory = stage.FavoriteCategory
+        FROM {stage_table} AS stage
+        WHERE target.CustomerID = stage.CustomerID;
+        """
+        cursor.execute(update_query)
+        conn.commit()
+        print("Update query executed successfully.")
+
+        # Insert Logic: Insert New Records
+        insert_query = f"""
+        INSERT INTO {target_table} (
+            CustomerID, Name, Email, Phone, Gender, DateOfBirth,
+            LoyaltyPoints, FavoriteStore, FavoriteCategory
+        )
+        SELECT
+            CustomerID, Name, Email, Phone, Gender, DateOfBirth,
+            LoyaltyPoints, FavoriteStore, FavoriteCategory
+        FROM {stage_table}
+        WHERE CustomerID NOT IN (SELECT CustomerID FROM {target_table});
+        """
+        cursor.execute(insert_query)
+        conn.commit()
+        print("Insert query executed successfully.")
+
+        # Drop Staging Table
+        drop_query = f"DROP TABLE IF EXISTS {stage_table};"
+        cursor.execute(drop_query)
+        conn.commit()
+        print(f"Staging table '{stage_table}' dropped successfully.")
+
+    except Exception as e:
+        print(f"ERROR: Failed to perform upsert and cleanup for '{stage_table}'.")
+        print(f"Exception: {str(e)}")
+        traceback.print_exc()
+    finally:
+        if 'cursor' in locals():
+            cursor.close()
+        if 'conn' in locals():
+            conn.close()
+
+# Main Execution
+s3_path = "/mnt/s3bucket/cleaned/df_Customer_data/*.csv"
+stage_table = "stage_Customers"
+target_table = "dim_Customers"
+schema = """
+    CREATE TABLE IF NOT EXISTS stage_Customers (
+        CustomerID VARCHAR(25) PRIMARY KEY,
+        Name VARCHAR(255),
+        Email VARCHAR(255),
+        Phone VARCHAR(50),
+        Gender VARCHAR(50),
+        DateOfBirth DATE,
+        LoyaltyPoints INTEGER,
+        FavoriteStore VARCHAR(255),
+        FavoriteCategory VARCHAR(255)
+    );
+"""
+
+try:
+    # Read data from S3
+    df = spark.read \
+        .format("csv") \
+        .option("header", "true") \
+        .option("inferSchema", "true") \
+        .load(s3_path)
+
+    # Cast all columns as string to avoid scientific notation issues
+    df = df.select([col(c).cast("string").alias(c) for c in df.columns])
+
+    # Create Staging Table in Redshift
+    create_table_in_redshift(schema, stage_table, redshift_jdbc_url, redshift_user, redshift_password)
+
+    # Write data to Staging Table in Redshift
+    df.write \
+        .format("jdbc") \
+        .option("url", redshift_jdbc_url) \
+        .option("dbtable", stage_table) \
+        .option("user", redshift_user) \
+        .option("password", redshift_password) \
+        .option("driver", redshift_properties["driver"]) \
+        .mode("append") \
+        .save()
+
+    print(f"Data from {s3_path} written to staging table '{stage_table}'.")
+
+    # Perform Upsert and Cleanup
+    perform_upsert_and_cleanup(stage_table, target_table, redshift_jdbc_url, redshift_user, redshift_password)
+
+except Exception as e:
+    print("ERROR: Failed to process S3 data to Redshift.")
+    print(f"Exception: {str(e)}")
+    traceback.print_exc()
